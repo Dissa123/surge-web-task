@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_heros",
+  "info": {
+    "displayName": "Hero",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "scrollLabel": {
+      "type": "string",
+      "default": "Scroll"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "callouts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.callout"
+    }
+  }
+}

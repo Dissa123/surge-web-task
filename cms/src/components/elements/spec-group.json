@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_spec_groups",
+  "info": {
+    "displayName": "Spec group",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    }
+  }
+}

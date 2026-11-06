@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_callouts",
+  "info": {
+    "displayName": "Hero callout",
+    "icon": "pin"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

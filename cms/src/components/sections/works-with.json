@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_works_withs",
+  "info": {
+    "displayName": "Works with (slider)",
+    "icon": "slideshow"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": "about"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "label": {
+      "type": "string"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.slide"
+    }
+  }
+}

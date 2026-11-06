@@ -1,0 +1,122 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Setting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "navLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "orderLabel": {
+      "type": "string",
+      "default": "Order"
+    },
+    "productName": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "orderUrl": {
+      "type": "string"
+    },
+    "orderPopupImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "orderPopupImageTablet": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "orderPopupImageMobile": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "closeLabel": {
+      "type": "string",
+      "default": "Close"
+    },
+    "subscribeTitle": {
+      "type": "string",
+      "required": true
+    },
+    "subscribeText": {
+      "type": "text"
+    },
+    "subscribePlaceholder": {
+      "type": "string",
+      "default": "Your email"
+    },
+    "subscribeButton": {
+      "type": "string",
+      "required": true
+    },
+    "subscribeSuccess": {
+      "type": "string",
+      "required": true
+    },
+    "subscribeError": {
+      "type": "string",
+      "required": true
+    },
+    "subscribeRequiredMessage": {
+      "type": "string",
+      "default": "This field is required"
+    },
+    "subscribeInvalidMessage": {
+      "type": "string",
+      "default": "Enter a valid email address"
+    },
+    "team": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.team-member"
+    },
+    "footerYearLabel": {
+      "type": "string",
+      "default": "Year"
+    },
+    "footerYear": {
+      "type": "string"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "credits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

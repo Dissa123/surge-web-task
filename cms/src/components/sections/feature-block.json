@@ -1,0 +1,72 @@
+{
+  "collectionName": "components_sections_feature_blocks",
+  "info": {
+    "displayName": "Feature block",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string"
+    },
+    "depthScene": {
+      "type": "boolean",
+      "default": false
+    },
+    "bookScene": {
+      "type": "boolean",
+      "default": false
+    },
+    "paperScene": {
+      "type": "boolean",
+      "default": false
+    },
+    "paperImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "secondImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "secondImageAlt": {
+      "type": "string"
+    }
+  }
+}

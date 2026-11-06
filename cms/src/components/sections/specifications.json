@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_sections_specificationss",
+  "info": {
+    "displayName": "Specifications",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": "specifications"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "groups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.spec-group"
+    },
+    "markers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.part-mark"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    }
+  }
+}

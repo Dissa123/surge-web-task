@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_team_members",
+  "info": {
+    "displayName": "Team member",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

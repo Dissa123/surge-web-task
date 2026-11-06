@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_sections_inside_boxs",
+  "info": {
+    "displayName": "Inside the box",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": "inside-the-box"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tile"
+    },
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.product"
+    },
+    "colors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.color-option"
+    }
+  }
+}

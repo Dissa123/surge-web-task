@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_closings",
+  "info": {
+    "displayName": "Closing statement",
+    "icon": "quote"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

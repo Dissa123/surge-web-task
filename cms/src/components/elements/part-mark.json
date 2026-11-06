@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_part_marks",
+  "info": {
+    "displayName": "Pen part mark",
+    "icon": "pin"
+  },
+  "options": {},
+  "attributes": {
+    "part": {
+      "type": "enumeration",
+      "enum": [
+        "nib",
+        "grip",
+        "button",
+        "body",
+        "clip",
+        "cap"
+      ],
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

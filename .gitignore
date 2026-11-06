@@ -1,0 +1,15 @@
+node_modules
+.env
+.env.local
+.tmp
+dist
+.next
+*.log
+
+cms/public/uploads/*
+!cms/public/uploads/.gitkeep
+cms/build
+cms/.strapi
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
