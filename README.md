@@ -10,6 +10,12 @@ All homepage content (copy, images, links, price, navigation, SEO, popup and for
 | Database | SQLite locally, Postgres on Railway | |
 | Media | Strapi local upload provider on a Railway Volume | |
 
+## Live deployment
+- Site: https://web-production-7312b3.up.railway.app
+- Strapi admin: https://cms-production-186a.up.railway.app/admin
+- Railway project: Postgres + `cms` (volume at `/app/public/uploads`) + `web`, deployed from this repo.
+- The site carries a `noindex` tag.
+
 ## Why Next.js
 - **Server rendering**: the page is HTML on first byte (good for SEO and LCP). The reference is a content-heavy marketing page.
 - **Tagged fetch cache + on-demand revalidation**: Strapi pings `/api/revalidate` on publish, so edits go live with no deploy and no rebuild (see below).
